@@ -1,0 +1,38 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local database
+db.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# React generated dependencies and builds
+contacts/node_modules/
+contacts/build/
+contacts/.env
+contacts/.env.*
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Uploaded user files
+media/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
