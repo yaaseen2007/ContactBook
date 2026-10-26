@@ -1,0 +1,154 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f9;
+  color: #202938;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.header {
+  background: #263b80;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 0;
+  color: #e0e7ff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 18px;
+}
+
+.form-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px #0000000c;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd2dc;
+  border-radius: 7px;
+  outline-color: #5268c9;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 11px 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary-btn {
+  margin-top: 8px;
+  background: #354caf;
+  color: white;
+}
+
+.secondary-btn {
+  background: #e7eaf0;
+  color: #202938;
+}
+
+.contacts-section {
+  margin-top: 30px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.contact-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e0e4eb;
+  overflow-wrap: anywhere;
+}
+
+.contact-card h3 {
+  margin-top: 0;
+  color: #263b80;
+}
+
+.contact-card p {
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.edit-btn {
+  background: #e1e9ff;
+  color: #263b80;
+}
+
+.delete-btn {
+  background: #ffe4e4;
+  color: #b42318;
+}
+
+.message {
+  background: #e5f5e9;
+  padding: 12px;
+  border-radius: 7px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 500px) {
+  .form-card {
+    padding: 18px;
+  }
+
+  .header h1 {
+    font-size: 26px;
+  }
+}
